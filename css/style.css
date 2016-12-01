@@ -1,0 +1,44 @@
+body {
+	padding:0;
+	margin:0;
+	background-color:black;
+
+}
+
+.wrapper {
+	width:100%;
+	height:100%;
+	margin:0 auto;
+}
+
+.sun {
+	height:200px;
+	width:200px;
+	border:1px solid white;
+	border-radius:50%;
+	position:absolute;
+	left:300px;
+	bottom:45%;
+	background-color:#FF440C;
+}
+
+.planets {
+	/*border:1px solid white;*/
+	width:50%;
+	height:250px;
+  	position:absolute;
+  	left: 40%;
+    bottom:44%;
+    display:inline;
+
+}
+
+.planet{
+	width:70px;
+	height:70px;
+	border-radius:50%;
+	border:1px solid white;
+	float:left;
+	margin-top:80px;
+	margin-right:40px;
+}
